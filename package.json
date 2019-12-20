@@ -1,0 +1,33 @@
+{
+  "name": "boiler_plate_react",
+  "version": "1.0.0",
+  "description": "boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "webpack --mode development && node server/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anton bengtsson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
